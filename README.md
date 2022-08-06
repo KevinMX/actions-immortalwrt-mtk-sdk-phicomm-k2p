@@ -35,6 +35,8 @@ ipv6helper
 htop
 zram-swap
 
+TCP BBR
+Fullcone NAT
 MTK SDK HWNAT
 Linux 5.10
 ```
@@ -83,6 +85,8 @@ ipv6helper
 htop
 zram-swap
 
+TCP BBR
+Fullcone NAT
 MTK SDK HWNAT
 Linux 5.10
 ```
