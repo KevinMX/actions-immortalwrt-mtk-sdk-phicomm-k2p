@@ -15,3 +15,7 @@ sed -i 's/192.168.6.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # Modify default Hostname
 sed -i 's/ImmortalWrt/K2P/g' package/base-files/files/bin/config_generate
+
+#Downgrade Xray to 1.5.5
+sed -i 's/1.5.9/1.5.5/g' feeds/packages/net/xray-core/Makefile
+sed -i 's/ef61f80a32229f583c375ec8da79a1533ba5efae0fcb011e68a0ad0c913f6a87/3f8d04fef82a922c83bab43cac6c86a76386cf195eb510ccf1cc175982693893/g' feeds/packages/net/xray-core/Makefile
