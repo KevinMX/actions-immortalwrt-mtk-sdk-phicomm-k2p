@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 # Modified for padavanonly/immortalwrt
 
-name: Build ImmortalWrt
+name: Build ImmortalWrt with ssrplus
 
 on:
   repository_dispatch:
