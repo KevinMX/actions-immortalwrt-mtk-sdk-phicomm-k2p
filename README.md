@@ -17,7 +17,6 @@
 LuCI:
 luci-app-arpbind
 luci-app-ddns
-luci-app-sqm
 luci-app-ssr-plus
 luci-app-turboacc
 luci-app-udpxy
@@ -28,11 +27,10 @@ luci-app-wol
 luci-theme-atmaterial
 
 非 LuCI 的其他系统组件：
-xray-core 1.5.9
+xray-core 1.5.5
 ipt2socks
 cloudflare ddns
 ipv6helper
-htop
 zram-swap
 
 TCP BBR
@@ -67,7 +65,6 @@ Based on ImmortalWrt 18.06-k5.4
 LuCI:
 luci-app-arpbind
 luci-app-ddns
-luci-app-sqm
 luci-app-ssr-plus
 luci-app-turboacc
 luci-app-udpxy
@@ -78,11 +75,10 @@ luci-app-wol
 luci-theme-atmaterial
 
 Other non-LuCI stuff:
-xray-core 1.5.9
+xray-core 1.5.5
 ipt2socks
 cloudflare ddns
 ipv6helper
-htop
 zram-swap
 
 TCP BBR
