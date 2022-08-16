@@ -8,6 +8,8 @@
 
 或者，如果您是斐讯 K2P 用户，可直接从 Actions 或 release 中下载已编译好的固件。
 
+受 Flash 空间限制，passwall 和 ssr-plus 版本分开编译，根据需求二选一。
+
 刷机步骤和其他固件大致相同，如您在 K2P 上使用 breed，刷写时选择**公版**布局即可。
 
 ### 固件内容
@@ -17,7 +19,7 @@
 LuCI:
 luci-app-arpbind
 luci-app-ddns
-luci-app-ssr-plus
+luci-app-ssr-plus / luci-app-passwall（二选一）
 luci-app-turboacc
 luci-app-udpxy
 luci-app-upnp
@@ -56,6 +58,8 @@ Automated build of [padavanonly/immortalwrt](https://github.com/padavanonly/immo
 
 Or if you're using Phicomm K2P, you may download the firmware directly from Actions or releases.
 
+Due to space restriction of the device, I made seperate builds of passwall and ssr-plus, choose either one on your demand.
+
 The flashing procedure is pretty much the same as other firmware, if you're using breed bootloader, choose "generic" flash layout should be okay.
 
 ### Packages included
@@ -65,7 +69,7 @@ Based on ImmortalWrt 18.06-k5.4
 LuCI:
 luci-app-arpbind
 luci-app-ddns
-luci-app-ssr-plus
+luci-app-ssr-plus or luci-app-passwall
 luci-app-turboacc
 luci-app-udpxy
 luci-app-upnp
