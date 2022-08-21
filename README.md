@@ -38,13 +38,14 @@ zram-swap
 TCP BBR
 Fullcone NAT
 MTK SDK HWNAT
+802.11k/v/r
 Linux 5.10
 ```
 
 ### 题外话
 如您需要配置 udpxy / IPTV 转发，且光猫支持自行配置 VLAN，可参考 [图解ax6s利用openwrt进行iptv单线复用并转发至局域网](https://www.right.com.cn/forum/thread-8215671-1-1.html) 进行配置。
 
-关于为什么我又开始折腾 ImmortalWrt 了，是看到了 MTK SDK HWNAT 支持，并且实测性能在斐讯 K2P 上表现已经足够好，WAN PPPoE to WiFi ~650Mbps（CPU 占用 < 70%），WAN PPPoE to LAN 跑满（CPU 占用 几乎为0）。加上 OpenWrt / ImmortalWrt 对插件和个性化支持远好于 Padavan，所以又折腾了起来。
+关于为什么我又开始折腾 ImmortalWrt 了，是看到了 MTK SDK HWNAT 支持，并且实测性能在斐讯 K2P 上表现已经足够好，WAN PPPoE to WiFi ~650Mbps（CPU 占用 < 70%, Lean lede 速度实测约 450Mbps），WAN PPPoE to LAN 跑满（CPU 占用 几乎为0）。加上 OpenWrt / ImmortalWrt 对插件和个性化支持远好于 Padavan，所以又折腾了起来。
 
 非常感谢 MeIsReallyBa、padavanonly、天灵、Lean 等国内 OpenWrt 社区的大佬们，能给大家的 MT76 设备献上这份大礼，K2P 这个多年前的设备可以继续发挥余热了。
 
@@ -88,11 +89,12 @@ zram-swap
 TCP BBR
 Fullcone NAT
 MTK SDK HWNAT
+802.11k/v/r
 Linux 5.10
 ```
 
 ## Performance results
-WAN PPPoE to WiFI 5GHz: ~650Mbps with < 70% CPU utilization
+WAN PPPoE to WiFI 5GHz: ~650Mbps with < 70% CPU utilization (about 450Mbps on Lean's lede)
 
 WAN PPPoE to LAN: maxed out my bandwidth, with 0% (<1%) CPU utilization
 
