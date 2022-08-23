@@ -8,7 +8,7 @@
 
 或者，如果您是斐讯 K2P 用户，可直接从 Actions 或 release 中下载已编译好的固件。
 
-受 Flash 空间限制，passwall 和 ssr-plus 版本分开编译，根据需求二选一。
+受 Flash 空间限制，passwall 和 ssr-plus 版本分开编译，xray-core 版本不同，根据需求二选一。
 
 刷机步骤和其他固件大致相同，如您在 K2P 上使用 breed，刷写时选择**公版**布局即可。
 
@@ -29,7 +29,7 @@ luci-app-wol
 luci-theme-atmaterial
 
 非 LuCI 的其他系统组件：
-xray-core 1.5.5
+xray-core (SSR Plus+ 为 1.5.9，passwall 为 1.5.5）
 ipt2socks
 cloudflare ddns
 ipv6helper
@@ -59,7 +59,7 @@ Automated build of [padavanonly/immortalwrt](https://github.com/padavanonly/immo
 
 Or if you're using Phicomm K2P, you may download the firmware directly from Actions or releases.
 
-Due to space restriction of the device, I made seperate builds of passwall and ssr-plus, choose either one on your demand.
+Due to space restriction of the device, I made seperate builds of passwall and ssr-plus, xray-core versions are different. Choose either one on your demand.
 
 The flashing procedure is pretty much the same as other firmware, if you're using breed bootloader, choose "generic" flash layout should be okay.
 
@@ -80,7 +80,7 @@ luci-app-wol
 luci-theme-atmaterial
 
 Other non-LuCI stuff:
-xray-core 1.5.5
+xray-core (1.5.9 for SSR Plus+ build, 1.5.5 for passwall build)
 ipt2socks
 cloudflare ddns
 ipv6helper
