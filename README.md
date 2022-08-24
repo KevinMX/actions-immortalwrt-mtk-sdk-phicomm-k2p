@@ -35,6 +35,10 @@ cloudflare ddns
 ipv6helper
 zram-swap
 
+passwall 专属：
+ChinaDNS-NG
+IPv6 NAT
+
 TCP BBR
 Fullcone NAT
 MTK SDK HWNAT
@@ -85,6 +89,10 @@ ipt2socks
 cloudflare ddns
 ipv6helper
 zram-swap
+
+passwall only:
+ChinaDNS-NG
+IPv6 NAT
 
 TCP BBR
 Fullcone NAT
