@@ -98,8 +98,8 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
         #Downgrade Xray to 1.5.5, this is only for passwall build due to low on nand flash free space
-        sed -i 's/1.5.9/1.5.5/g' feeds/packages/net/xray-core/Makefile
-        sed -i 's/ef61f80a32229f583c375ec8da79a1533ba5efae0fcb011e68a0ad0c913f6a87/3f8d04fef82a922c83bab43cac6c86a76386cf195eb510ccf1cc175982693893/g' feeds/packages/net/xray-core/Makefile
+        sed -i 's/1.6.0/1.5.5/g' feeds/packages/net/xray-core/Makefile
+        sed -i 's/b65375090a2d48d358a582837d485bfaa9572e4d1f5a649895b9fd83d0f69e43/3f8d04fef82a922c83bab43cac6c86a76386cf195eb510ccf1cc175982693893/g' feeds/packages/net/xray-core/Makefile
 
 
     - name: Compile the firmware
