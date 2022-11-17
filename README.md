@@ -1,3 +1,7 @@
+请使用 [KevinMX/Railgun](https://github.com/KevinMX/Railgun)。
+
+Please use [KevinMX/Railgun](https://github.com/KevinMX/Railgun) instead.
+
 # actions-immortalwrt-mtk-sdk-phicomm-k2p
 
 ## 中文说明
